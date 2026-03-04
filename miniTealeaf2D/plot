@@ -1,0 +1,28 @@
+#!/bin/bash
+
+OUT="out.dat"
+SLEEP=0.3
+
+pkill -f gnuplot 2>/dev/null
+
+gnuplot -persist <<EOF &
+
+set term qt
+set view map
+set pm3d map
+set size ratio -1
+unset key
+set xlabel "x"
+set ylabel "y"
+set title "Er ∝ T^4"
+set cbrange [0:0.25]
+
+while (1) {
+    splot "${OUT}" using 1:2:3 w pm3d
+    pause ${SLEEP}
+}
+
+EOF
+
+echo "Gnuplot running..."
+wait
