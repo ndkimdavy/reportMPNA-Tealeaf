@@ -63,12 +63,6 @@ Compiler :
 make
 ```
 
-Cela génère l’exécutable :
-
-```
-miniTealeaf2D
-```
-
 ---
 
 # Exécution
