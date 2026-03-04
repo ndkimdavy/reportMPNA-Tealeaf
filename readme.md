@@ -21,13 +21,13 @@ Le code fourni (`miniTealeaf2D`) est une implémentation simplifiée en **Fortra
 reportMPNA-Tealeaf/
 │
 ├── RapportMPNA_Kim_Selyan_Franc.pdf
-│   Rapport complet du projet
+│   [Rapport complet du projet]
 │
 ├── PresentationMPNA_Kim_Selyan_Franc.pdf
-│   Support de présentation
+│   [Support de présentation]
 │
 ├── miniTealeaf2D/
-│   Code source Fortran du mini solveur
+│   [Code source Fortran du mini solveur]
 │
 │   ├── main.f90
 │   ├── config.f90
@@ -39,7 +39,7 @@ reportMPNA-Tealeaf/
 │   └── plot
 │
 └── analyseBenchMakao/
-    Analyse de performance avec MAQAO
+    [Analyse de performance avec MAQAO]
     │
     ├── analyseMaqao.ipynb
     ├── analyseMaqao.pdf
